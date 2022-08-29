@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonTheme">
+        <attr name="backColor" format="reference" />
+        <attr name="borderColor" format="reference" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="android:background" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="GenericTemplate">
+        <attr name="genericImage" format="reference" />
+        <attr name="genericTitle" format="string" />
+        <attr name="genericBody" format="string" />
+        <attr name="genericButton" format="string" />
+        <attr name="genericButtonCenterPosition" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingTemplate">
+        <attr name="loadingBackgroundColor" format="reference" />
+        <attr name="loadingMessage" format="string" />
+    </declare-styleable>
+</resources>

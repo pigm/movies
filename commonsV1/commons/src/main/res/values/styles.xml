@@ -1,0 +1,445 @@
+<resources>
+
+
+    <style name="AppThemeAuto" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:dropDownListViewStyle">@style/any</item>
+    </style>
+
+    <style name="any" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="EditTextRoundedBorder">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+    </style>
+
+    <style name="EditTextTokenCode">
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@drawable/edittext_rounded_corners</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="EditTextRightRoundedBorder">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:background">@drawable/edittext_right_rounded_corners</item>
+    </style>
+
+    <style name="EditTextLeftRoundedBorder">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:background">@drawable/edittext_left_rounded_corners</item>
+    </style>
+
+    <style name="MapTooltip">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+    </style>
+
+    <style name="TopBarMessageChatWithShopper">
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LandingOffersErrorRetry">
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+    </style>
+
+    <!-- TopBar Style-->
+
+    <style name="TopBarTitle">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+    </style>
+
+    <style name="TopBarTextScheduleSmall">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+    </style>
+
+    <style name="TopBarTextMediumBoldTitle">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+    <style name="TopBarTextSmallBoldTitle">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+    <!--    NEW DEFAULT STYLES-->
+    <style name="XLargeProTitle">
+        <item name="android:textSize">@dimen/x_large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="LargeProDisabledTitle">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryButton</item>
+    </style>
+
+    <style name="ExtraLargeProDisabledTitle">
+        <item name="android:textSize">@dimen/x_large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryButton</item>
+    </style>
+
+    <style name="LargeSemiTitle">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="LargeSemiTitlePrimary">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="MediumSemiTitlePrimary">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="ExtraLargeSemiTitle">
+        <item name="android:textSize">@dimen/x_large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="MediumSemiTitle">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="XLargeRegularTitle">
+        <item name="android:textSize">@dimen/x_large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="MediumRegularTitle">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+
+    <style name="LargeRegularTitle">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="MediumBoldTitle">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="MediumSemiSpecialText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SmallSemiSpecialText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="LargeRegularPrimaryText">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="MediumSemiPrimaryText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+
+    <style name="MediumRegularSpecialCencoText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorCencoPriceText</item>
+    </style>
+
+    <style name="MediumRegularSpecialPrimaryText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="MediumBoldSpecialPrimaryText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="MediumBoldSpecialCencoText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorCencoPriceText</item>
+    </style>
+
+    <style name="MediumSemiCencoText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorCencoPriceText</item>
+    </style>
+
+    <style name="MediumSemiSecondaryText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorSecondaryProductText</item>
+    </style>
+
+    <style name="MediumRegularPrimaryText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="MediumBoldPrimaryText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="MediumRegularSecondaryText">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorSecondaryProductText</item>
+    </style>
+
+    <style name="LargeRegularSecondaryText">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorSecondaryProductText</item>
+    </style>
+
+    <style name="SmallRegularSecondaryText">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorSecondaryProductText</item>
+    </style>
+
+    <style name="SmallSemiBoldSecondaryText">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorSecondaryProductText</item>
+    </style>
+
+    <style name="SmallRegularPrimaryText">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="SmallRegularErrorText">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+    <style name="SmallSemiBoldPrimaryText">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="LargeCencoPrice">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorCencoPriceText</item>
+    </style>
+
+    <style name="MediumCencoPrice">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorCencoPriceText</item>
+    </style>
+
+    <style name="LargeOfferPrice">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="MediumOfferPrice">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorOfferPriceText</item>
+    </style>
+
+    <style name="MediumPrice">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="LargePrice">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="MediumRegularNormalPrice">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="MediumRegularOfferPrice">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorOfferPriceText</item>
+    </style>
+
+    <style name="SmallGreenButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:minHeight">@dimen/small_button_height</item>
+        <item name="android:background">@drawable/button_green_action_pressed_solid</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textSize">@dimen/small_text</item>
+    </style>
+
+    <style name="SolidButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/solid_button_state</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="OutlinedWhiteButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="strokeColor">@color/colorOutlinedButton</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">@color/colorOutlinedButton</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="SolidButton.LargeText">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:minHeight">@dimen/medium_button_height</item>
+    </style>
+
+    <style name="SolidButton.SmallText">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:minHeight">@dimen/small_button_height</item>
+    </style>
+
+    <style name="OutlinedButton.LargeText">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:minHeight">@dimen/medium_button_height</item>
+    </style>
+
+    <style name="OutlinedWhiteButton.LargeText">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:minHeight">@dimen/medium_button_height</item>
+    </style>
+
+    <style name="DialogTitle">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+
+    <!--    COUNTDOWN WIDGET-->
+
+    <style name="CountDownNumber">
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:textColor">@color/countDownDarkText</item>
+    </style>
+
+    <style name="CountDownLabel">
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textSize">7sp</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/countDownDarkText</item>
+    </style>
+
+    <style name="CountDownSeparator">
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/countDownDarkBackground</item>
+    </style>
+
+    <style name="CountDownBackground">
+        <item name="android:background">@drawable/rounded_black</item>
+        <item name="android:minWidth">38dp</item>
+        <item name="android:minHeight">38dp</item>
+    </style>
+
+    <!--    SPINNER WIDGET-->
+    <style name="SpinnerDefaultStyle" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textColor">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="PrimaryButtonColorCheckbox">
+        <item name="colorAccent">@color/colorPrimaryButton</item>
+    </style>
+
+    <!--    TEXT INPUT LAYOUT-->
+    <style name="NormalTextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">@color/colorPrimaryText</item>
+        <item name="colorControlNormal">@color/colorPrimaryText</item>
+        <item name="colorControlActivated">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="ErrorTextAppearance" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="hintTextColor">@color/colorPrimaryProductText</item>
+    </style>
+
+    <style name="PrimaryColorCheckbox">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+</resources>
+
+

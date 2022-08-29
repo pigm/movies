@@ -1,0 +1,8 @@
+include ':app'
+include ':login'
+include ':cenco-core'
+include ':commons'
+
+project(':cenco-core').projectDir = new File(settingsDir, "../coreV1/cenco-core")
+project(':commons').projectDir = new File(settingsDir, "../commonsV1/commons")
+project(':login').projectDir = new File(settingsDir, "../loginV1/login")

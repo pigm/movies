@@ -1,0 +1,60 @@
+ext {
+    minSdkVersion = 21
+    compileSdkVersion = 32
+    targetSdkVersion = 30
+    buildToolsVersion = '30.0.3'
+
+    kotlinVersion = '1.6.0'
+    toolsGradleVersion = '4.1.3'
+    appCompatVersion = '1.2.0'
+    realmPluginVersion = '4.3.1'
+    googleServicesVersion = '4.3.5'
+    playServicesMaps = '17.0.0'
+    mapsUtilsVersion = '0.5'
+    googlePlacesVersion = '2.4.0'
+    crashlyticsVersion = '2.5.2'
+    playServiceVersion = '17.1.0'
+
+    firebaseAnalyticsVersion = '18.0.2'
+    firebaseCrashlyticsVersion = '17.3.1'
+    firebaseMessagingVersion = '21.0.1'
+    firebaseConfigVersion = '20.0.3'
+    firebaseDatabaseVersion = '19.6.0'
+    firebaseDynamicLinksVersion = '19.1.1'
+    firebaseStorageVersion = '19.2.1'
+    firebaseUiVersion = '6.3.0'
+    newrelicVersion = '6.0.0'
+
+    androidCoreKtxVersion = '1.7.0'
+    materialDesignVersion = '1.5.0'
+    cardViewVersion = '1.0.0'
+    constraintLayoutVersion = '2.1.3'
+    viewPagerVersion = '1.0.0'
+    carouselViewVersion = '0.1.5'
+    glideVersion = '4.11.0'
+    shimmerVersion = '0.5.0'
+    facebookAndroidVersion = '11.0.0'
+    balloonVersion = '1.3.3'
+    photoViewVersion = '2.3.0'
+
+    multidexVersion = '2.0.1'
+    supportDesignVersion = '28.0.0'
+
+    daggerVersion = "2.27"
+    eventbusVersion = '3.0.0'
+    androidxAnnotationVersion = '1.2.0'
+    legacySupportVersion = '1.0.0'
+    rxAndroidVersion = '2.1.1'
+    rxjavaVersion = "2.2.10"
+    easyPermissionsVersion = '3.0.0'
+    ottoVersion = '1.3.8'
+
+    roomCompilerVersion = '2.2.5'
+    roomRxJavaVersion = '2.2.5'
+
+    retrofitVersion = "2.3.0"
+    okhttpVersion = '4.2.1'
+    okhttpProfilerVersion = '1.0.8'
+    loggingInterceptorVersion = '4.2.0'
+    lottieVersion = '4.1.0'
+}

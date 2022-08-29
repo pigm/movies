@@ -1,0 +1,50 @@
+buildscript {
+    apply from: 'dependencies.gradle'
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$toolsGradleVersion"
+        classpath "io.realm:realm-gradle-plugin:$rootProject.realmPluginVersion"
+        classpath "com.google.gms:google-services:$rootProject.googleServicesVersion"
+        classpath "com.google.firebase:firebase-crashlytics-gradle:$crashlyticsVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$rootProject.kotlinVersion"
+        classpath "com.newrelic.agent.android:agent-gradle-plugin:$rootProject.newrelicVersion"
+    }
+}
+
+subprojects {
+    afterEvaluate { project ->
+        if (project.hasProperty('android')){
+            android {
+                compileSdkVersion rootProject.compileSdkVersion
+                defaultConfig {
+                    minSdkVersion rootProject.minSdkVersion
+                    targetSdkVersion rootProject.targetSdkVersion
+                }
+            }
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://maven.google.com" }
+        maven { url "https://jitpack.io" }
+    }
+    //add support to mac m1, remove when upgrade room version
+    configurations.all {
+        resolutionStrategy {
+            force 'org.xerial:sqlite-jdbc:3.34.0'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

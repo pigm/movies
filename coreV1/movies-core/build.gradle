@@ -1,0 +1,76 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    implementation "androidx.core:core-ktx:$androidCoreKtxVersion"
+    api "com.google.android.material:material:$materialDesignVersion"
+
+    api "androidx.appcompat:appcompat:$appCompatVersion"
+    api "androidx.cardview:cardview:$cardViewVersion"
+    api "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    api "androidx.viewpager2:viewpager2:$viewPagerVersion"
+    api "com.synnapps:carouselview:$carouselViewVersion"
+    api "com.github.bumptech.glide:glide:$glideVersion"
+    api "com.android.support:design:$supportDesignVersion"
+
+    api("com.google.android.gms:play-services-location:$playServiceVersion") {
+        transitive = true
+        exclude group: "com.android.support", module: "support-v4"
+    }
+    api "com.google.android.gms:play-services-maps:$playServicesMaps"
+    api "com.google.maps.android:android-maps-utils:$mapsUtilsVersion"
+
+    api "androidx.legacy:legacy-support-v4:$legacySupportVersion"
+
+    debugImplementation "com.localebro:okhttpprofiler:$okhttpProfilerVersion"
+    api "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    api "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    api "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    api "com.squareup.retrofit2:converter-scalars:$retrofitVersion"
+    api "com.squareup.okhttp3:logging-interceptor:$loggingInterceptorVersion"
+
+    api "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+    api "io.reactivex.rxjava2:rxjava:$rxjavaVersion"
+
+    annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
+    api "com.google.dagger:dagger:$daggerVersion"
+
+    api('com.github.bumptech.glide:okhttp3-integration:1.4.0') {
+        exclude group: 'glide-parent'
+    }
+
+    api('com.roughike:bottom-bar:2.3.1') {
+        exclude group: 'com.android.support', module: 'appcompat-v7'
+    }
+
+    api "androidx.multidex:multidex:$multidexVersion"
+    api "pub.devrel:easypermissions:$easyPermissionsVersion"
+    api "org.greenrobot:eventbus:$eventbusVersion"
+    api "com.squareup:otto:$ottoVersion"
+
+    annotationProcessor "androidx.room:room-compiler:$roomCompilerVersion"
+    api "androidx.room:room-rxjava2:$roomRxJavaVersion"
+    api "androidx.room:room-runtime:$roomRxJavaVersion"
+
+    api "com.google.firebase:firebase-analytics:$firebaseAnalyticsVersion"
+    api "com.google.firebase:firebase-crashlytics:$firebaseCrashlyticsVersion"
+    api "com.google.firebase:firebase-messaging:$firebaseMessagingVersion"
+    api "com.google.firebase:firebase-config:$firebaseConfigVersion"
+    api "com.google.firebase:firebase-database:$firebaseDatabaseVersion"
+    api "com.google.firebase:firebase-dynamic-links:$firebaseDynamicLinksVersion"
+    api "com.google.firebase:firebase-storage:$firebaseStorageVersion"
+    api "com.firebaseui:firebase-ui-firestore:$firebaseUiVersion"
+}

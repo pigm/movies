@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">login</string>
+
+    <!-- films -->
+    <string name="film_text">Film</string>
+    <string name="premiere_text">premiere</string>
+    <string name="duracion_text">duracion</string>
+    <string name="title_text">Billboard of premieres</string>
+
+    <!-- film detatil-->
+</resources>

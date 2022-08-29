@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/colorPrimaryButtonPressed" android:state_pressed="true" /> <!-- pressed -->
+    <item android:color="@color/colorPrimaryButtonDisable" android:state_enabled="false" /> <!-- disabled -->
+    <item android:color="@color/colorPrimaryButton" android:state_enabled="true" /> <!-- enabled -->
+    <item android:color="@color/colorPrimaryButton" android:state_pressed="false"/> <!-- default -->
+
+</selector>

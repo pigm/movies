@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/includedToolbar"
+                layout="@layout/toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/filmImage"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:src="@drawable/ic_image_placeholder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/includedToolbar"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/titleText"
+                style="@style/XXLargeSemiTitle"
+                android:layout_margin="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="The Gray Man"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/filmImage"/>
+
+            <TextView
+                android:id="@+id/plopText"
+                style="@style/XLargeSemiTitle"
+                android:layout_margin="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="When the CIA's most skilled operative-whose true identity is known to none-accidentally uncovers dark agency secrets, a psychopathic former colleague puts a bounty on his head, setting off a global manhunt by international assassins."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titleText"/>
+
+            <TextView
+                android:id="@+id/starsText"
+                style="@style/XLargeSemiTitle"
+                android:layout_margin="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Ryan Gosling, Chris Evans, Ana de Armas, Billy Bob Thornton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plopText"/>
+
+            <TextView
+                android:id="@+id/directorsText"
+                style="@style/XLargeSemiTitle"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Anthony Russo, Joe Russo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/starsText"/>
+
+
+            <TextView
+                android:id="@+id/premierText"
+                style="@style/XLargeSemiTitle"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Premier: 22 Jul 2022"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/directorsText"/>
+
+            <TextView
+                android:id="@+id/minText"
+                style="@style/XLargeSemiTitle"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="122 min"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/premierText"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="5dp"
+            android:visibility="visible" />
+    </FrameLayout>
+</layout>

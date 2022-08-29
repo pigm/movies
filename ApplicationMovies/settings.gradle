@@ -1,0 +1,6 @@
+include ':app'
+
+
+include ':movies-core'
+include ':commons'
+include ':login'

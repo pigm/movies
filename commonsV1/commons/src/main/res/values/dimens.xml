@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="large_text_dimen">18sp</dimen>
+
+
+    <dimen name="plp_picker_pressed_margin">1dp</dimen>
+
+
+    <!-- PDP. -->
+    <dimen name="pdp_largest_text">18sp</dimen>
+    <dimen name="pdp_padding_all">8dp</dimen>
+
+
+    <dimen name="default_padding">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default Text Sizes. -->
+    <dimen name="general_button_height">40dp</dimen>
+    <dimen name="general_button_text_size">18sp</dimen>
+
+    <!-- tooltip-->
+
+
+    <dimen name="text_12_sp">12sp</dimen>
+    <dimen name="text_14_sp">14sp</dimen>
+    <dimen name="text_16_sp">16sp</dimen>
+
+    <dimen name="margin_26_sp">26sp</dimen>
+    <dimen name="margin_29_sp">29sp</dimen>
+
+    <!--    carousel library-->
+    <dimen name="default_circle_indicator_selected_radius">5dp</dimen>
+
+
+    <!--    DEFAULT DIMENSIONS-->
+    <!--    TEXT-->
+    <dimen name="x_large_text">18sp</dimen>
+    <dimen name="large_text">16sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+
+    <!--    LAYOUT MARGIN-->
+    <dimen name="x_large_margin">32dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="medium_large_margin">18dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="x_medium_margin">12dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="x_small_margin">4dp</dimen>
+    <dimen name="xs_small_margin">2dp</dimen>
+
+    <!--Shortcut icon-->
+    <dimen name="shortcut_size">64dp</dimen>
+
+    <!--    GREEN DIVIDER-->
+    <dimen name="green_view_width">35dp</dimen>
+    <dimen name="xxxl_green_view_height">6dp</dimen>
+    <dimen name="xxl_green_view_height">5dp</dimen>
+    <dimen name="xl_green_view_height">4dp</dimen>
+    <dimen name="l_green_view_height">3dp</dimen>
+    <dimen name="green_view_height">2dp</dimen>
+    <dimen name="xs_green_view_height">1dp</dimen>
+
+    <!--    BUTTON-->
+    <dimen name="medium_button_height">44dp</dimen>
+    <dimen name="small_button_height">30dp</dimen>
+
+    <!--    SEPARATOR VIEWS-->
+    <dimen name="separator_height">1dp</dimen>
+
+    <!--    SPINNER -->
+    <dimen name="spinner_height">34dp</dimen>
+
+    <!--    SnackBar-->
+    <dimen name="design_snackbar_padding_vertical_2lines" tools:override="true">14dp</dimen>
+    <dimen name="snack_bar_icon_padding">10dp</dimen>
+</resources>

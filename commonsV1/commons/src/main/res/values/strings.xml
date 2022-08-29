@@ -1,0 +1,328 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="retry">Reintente</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="delete">Eliminar</string>
+    <string name="accept">ACEPTAR</string>
+    <string name="ups">Ups!</string>
+    <string name="empty_string" translatable="false" />
+    <string name="out_of_stock_product">Sin stock</string>
+
+    <!--Utils date -->
+    <string name="dateFormat">%1$tA %1$te %1$tB</string>
+    <string name="windowTimeFormat">%1$tR - %2$tR hrs</string>
+    <string name="dateFormatToday">Hoy - %1$tA %1$te %1$tB</string>
+    <string name="windowExpressTimeFormat">Antes de las %1$tR hrs</string>
+
+    <string name="menu_mydata">Mis datos</string>
+    <string name="menu_address">Mis direcciones</string>
+    <string name="menu_paymentmethod">Mis medios de pago</string>
+    <string name="menu_myorders">Mis compras</string>
+    <string name="menu_bankaccount">Mi cuenta bancaria</string>
+    <string name="menu_helpcenter">Centro de ayuda</string>
+    <string name="menu_legalinfo">Informaciones legales</string>
+    <string name="menu_schedulevisit">Agenda tu visita a locales Jumbo</string>
+    <string name="menu_closesession">Cerrar Sesión</string>
+    <string name="menu_customerservice">Servicio al cliente</string>
+
+
+    <string name="menu_terms">Términos y condiciones</string>
+    <string name="menu_security_and_privacy">Seguridad y Privacidad</string>
+    <string name="menu_code_of_ethics">Código de ética</string>
+
+    <!--Shopping Cart-->
+    <string name="picker_title">AGREGAR</string>
+    <string name="card_amount_minimum">Monto mínimo de compra</string>
+    <string name="txt_showcase_personalize">Pensados en ti</string>
+
+    <!--NOTIFICATIONS CENTER-->
+    <string name="txt_toolbar_notification">Notificaciones</string>
+    <string name="toolbar_delete_option">Eliminar</string>
+    <string name="toolbar_cancel_option">Cancelar</string>
+    <string name="empty_notification">No hay notificaciones</string>
+    <string name="text_button_delete">ELIMINAR TODAS</string>
+    <string name="notification_prod_error">Ha ocurrido un error al cargar tus notificaciones, \n por favor intenta nuevamente</string>
+    <string name="dialog_delete_ok">ELIMINAR</string>
+    <string name="dialog_delete_cancel">CANCELAR</string>
+    <string name="dialog_delete_all_text">¿Deseas eliminar todas las notificaciones?</string>
+    <string name="dialog_delete_one_text">¿Deseas eliminar esta notificación?</string>
+    <string name="dialog_delete_error_ok">ACEPTAR</string>
+
+    <string name="button_block">AGREGAR</string>
+    <!--String Warning-->
+    <string name="titleServerError">Ups!</string>
+    <string name="subtitleServerError">
+        <![CDATA[
+            Algo sucedió en la carga, por favor espera un momento y <b>actualiza.</b>
+        ]]>
+    </string>
+    <string name="buttonTextServerError">VOLVER A CARGAR</string>
+    <string name="view_search_hint">¿Qué estas buscando?</string>
+    <string name="search_in_x">Buscar</string>
+
+    <!--CMS-->
+
+    <!-- etiquetas de la vista-->
+
+    <string name="label_button_accept_address_list">Aceptar</string>
+    <string name="label_button_add_other_address_list">Agregar una dirección</string>
+    <string name="label_warning_schedule">*El próximo horario disponible podría cambiar al momento
+        de pagar, dependiendo de la demanda o la cantidad de productos solicitados.</string>
+
+    <!-- Purchases -->
+    <string name="discounts">Descuentos</string>
+    <string name="cost_per_service">Costo de envío</string>
+    <string name="payment_subtotal_purchase">Subtotal</string>
+    <string name="total_msg_order">Totales de tu compra</string>
+    <string name="total_msg_purchase">Total del pedido</string>
+    <string name="repeat_purchase">REPETIR COMPRA</string>
+    <string name="number_purchase">Pedido</string>
+    <string name="detail_purchase">Datos de facturación</string>
+    <string name="register_chat">Registro de chat</string>
+    <string name="products_quantitys">Detalle de productos</string>
+    <string name="product">Producto</string>
+    <string name="products">Productos</string>
+    <string name="txt_toolbar">Detalle de Compra</string>
+    <string name="payment_minutes">En %1$d minutos</string>
+    <string name="checkout_address_value_noComplement">%1$s %2$s, %3$s</string>
+    <string name="payment_schedule_delivery_format">%1$ta %1$td/%1$tm, %1$tR hrs a %2$tR hrs</string>
+    <string name="payment_resume_express_title">Despacho:</string>
+    <string name="txt_tracing">Seguimiento</string>
+    <string name="txt_chat">Chat con tu Shopper</string>
+    <string name="offert_text">Oferta</string>
+    <string name="express_title">Despacho</string>
+    <string name="payment_resume_express_receiver_title">Recibe:</string>
+    <string name="payment_resume_express_delivery_title">Horario de entrega:</string>
+    <string name="payment_resume_express_delivery_title_purchase">Fecha de entrega</string>
+    <string name="payment_resume_car_title">Retiro en auto</string>
+    <string name="payment_resume_car_receiver_title">Retira:</string>
+    <string name="payment_resume_car_delivery_title">Horario de retiro</string>
+    <string name="payment_resume_car_delivery_title_purchase">Fecha de retiro</string>
+    <string name="payment_resume_store_title">Retiro en local</string>
+    <string name="receiver_withdrawal">Retira:</string>
+    <string name="total_purchase">Total</string>
+    <string name="delivery_info_title">Modo de entrega</string>
+    <string name="checkout_address_value">%1$s %2$s, %3$s, %4$s</string>
+    <string name="withdrawal_delivery_label">Horario de retiro:</string>
+    <string name="car_withdrawal_label">Retiro en auto</string>
+    <string name="store_withdrawal_label">Retiro en local</string>
+    <string name="title_error_tracking">Lo sentimos, por este momento no es posible seguir tu pedido</string>
+    <string name="title_error_detail">Ha ocurrido un error</string>
+    <string name="dialog_msg_error_tracking">Por favor, intenta más tarde</string>
+    <string name="card_debit_warning_title">Importante</string>
+    <string name="card_debit_warning_detail_purchase_title">Recuerda</string>
+    <string name="card_debit_warning_information">Cuando existan diferencias de dinero a tu favor al pagar con tarjeta de débito, éstas serán devueltas a la cuenta que debes registrar en Mi cuenta bancaria. Agregar información</string>
+
+
+    <!-- List Product -->
+    <string name="item_paid_product_quantity">%1$s</string>
+    <string name="unids">unidades</string>
+    <string name="unid">unidad</string>
+
+    <!--errores -->
+
+    <string name="list_orders_msg">Te invitamos a culminar una compra para ser listada en tu historial de compra</string>
+    <string name="error_empty_address">No tienes ninguna dirección registrada, ingresa una para entregar tu pedido</string>
+
+    <!-- Card Payment -->
+
+
+    <string name="confirmation_text">¡Tu pedido ha sido ingresado!</string>
+    <string name="confirmation_code_text">Número de pedido:</string>
+    <string name="confirmation_date_hour_text">%s hrs.</string>
+    <string name="information_mail_title">Mail de contacto:</string>
+    <string name="information_mail_text_value">nombre.mail.personalizado@gmail.com</string>
+
+    <string name="show_product_summary">RESUMEN DEL PEDIDO</string>
+    <string name="show_product_summary_order">Resumen del Pedido</string>
+
+    <!-- BANK ACCOUNT -->
+    <string name="bank_account_name_title">Nombre del titular</string>
+    <string name="bank_account_mail_title">Mail</string>
+    <string name="bank_account_bank_title">Banco</string>
+    <string name="bank_account_rut_title">Rut</string>
+    <string name="bank_account_type_title">Tipo de cuenta</string>
+    <string name="bank_account_number_title">Número cuenta</string>
+    <string name="bank_account_button_delete">Eliminar</string>
+    <string name="bank_account_button_modify">Modificar</string>
+
+    <!-- CHECKOUT ERROR -->
+    <string name="not_schedule_local">En este momento no tenemos horarios disponibles para retiro.
+        \n Por favor, intenta más tarde.</string>
+    <string name="not_schedule_address">En este momento no tenemos horarios disponibles para despacho.
+        \n Por favor, intenta más tarde.</string>
+
+
+    <!-- GENERAL SERVER ERROR -->
+    <string name="server_connection_error_title">Error al obtener la información.</string>
+    <string name="server_connection_error_description"><![CDATA[ Por favor, intenta nuevamente.]]></string>
+
+    <!--  CONNECTION ERROR -->
+
+    <!--  Marking -->
+    <string name="text_debit">Debito</string>
+    <string name="text_freq_products">Tus Productos Frecuentes</string>
+
+    <!-- PAYMENT ERROR -->
+
+    <string name="payment_error">Ocurrió un error al procesar tu pago.\nRealiza tu pedido nuevamente.</string>
+    <string name="erroChangeAddressTitle">El modo de entrega\n no pudo ser seleccionado</string>
+    <string name="errorChangeAddress">Por favor, intenta nuevamente</string>
+
+    <string name="payment_connection_error_title">Ocurrió un error al obtener el resumen de tu pedido</string>
+    <string name="payment_connection_error_description"><![CDATA[ Por favor, revisa tu conexión <br>e intenta nuevamente.]]></string>
+    <string name="payment_server_connection_error_description"><![CDATA[ Por favor, intenta nuevamente.]]></string>
+
+
+    <string name="back_to_cart">Volver al carro</string>
+    <string name="call">Llamar</string>
+    <string name="try_again">Reintentar</string>
+
+    <string name="dialog_message_title_delivery">Entregamos en</string>
+    <string name="dialog_description_delivery">Las Condes, Vitacura, Lo Barnechea, La Reina,Providencia, Ñuñoa, La Florida, San Miguel, Peñalolén, Macul, Santiago, Chicureo, Huechuraba y Maipú.</string>
+    <string name="dialog_horario">Horario para hacer pedidos:9:00 a 21:00 horas</string>
+    <string name="dialog_out_service">Fuera de este horario puedes preparar tu carro y finalizar tu compra al día siguiente. </string>
+
+    <!-- PDP -->
+    <string name="pdp_product_code">Código de producto: </string>
+    <string name="pdp_product_brand">Marca:</string>
+    <string name="pdp_product_description">Descripción</string>
+    <string name="pdp_product_characteristics">Características</string>
+    <string name="pdp_product_seals">Información nutricional</string>
+    <string name="regular_price">Precio Regular</string>
+    <string name="txt_before">Antes</string>
+    <string name="t_cencosud">T. Cencosud</string>
+    <string name="pdp_text_product_small_stock">Producto con stock bajo. Es posible que no lo encontremos al preparar tu pedido</string>
+
+    <!-- string contenDescripcion-->
+    <string name="contentDescription_cenco_card">CencoCard</string>
+    <string name="contentDescription_empty_cart">EmptyCart</string>
+    <string name="contentDescription_icon_paid" tools:ignore="ExtraTranslation">Paid</string>
+
+    <string name="back_description">Volver atras</string>
+    <string name="partial_cart_sync_error">Algunos productos no fueron añadidos al carrito.</string>
+
+    <!--    Permissions    -->
+
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="purchase_confirmation">Confirmación del Pedido</string>
+
+
+    <!--  Coupons -->
+    <string name="toolbar_coupons">Cupón</string>
+    <string name="title_coupons">Ingresa tu código de descuento</string>
+    <string name="hint_coupons">SANTAISABELDSCTO</string>
+    <string name="description_coupons"> Descuento válido al momento de aplicar el cupón</string>
+    <string name="error_coupons">Código incorrecto, intenta nuevamente</string>
+    <string name="add_coupons">Agregar Cupón</string>
+    <string name="apply_coupons">Cupón Aplicado</string>
+    <string name="button_apply_coupons">Aplicar</string>
+
+
+    <string name="hint_edit_address">Escribe aquí tu dirección</string>
+
+
+    <!-- Cards Names -->
+    <string name="card_visa">Visa</string>
+    <string name="card_diners_club">Diners Club</string>
+    <string name="card_mastercard">Mastercard</string>
+    <string name="card_magna">Magna</string>
+    <string name="card_american_express">American Express</string>
+    <string name="card_default"> </string>
+
+    <!-- Cards text -->
+    <string name="card_points">••••</string>
+    <string name="mask_card">•••• %1$s</string>
+    <string name="normal_credit_card">Tarjeta Bancaria (%1$s)</string>
+    <string name="cenco_credit_card">T. Cencosud Scotiabank (%1$s)</string>
+
+    <string name="error_connection">Ha ocurrido un error,\n inténtalo nuevamente </string>
+    <string name="accept_save_card">Acepto que se guarden los datos de la tarjeta</string>
+
+    <!--Notes Products-->
+    <string name="title_toolbar_notes">Agregar Comentario</string>
+    <string name="cont_characters_notes">%s/100</string>
+    <string name="hint_text_shoppingCart_notes">Agregar comentario</string>
+    <string name="btn_save_shoppingCart_notes">GUARDAR</string>
+
+    <string name="tooltip_max">Recuerda que puedes llevar\nhasta %1$s unidades</string>
+    <string name="cencobar_alert_max">Recuerda que puedes llevar hasta %1$s unidades</string>
+
+    <!--    TWO BUTTONS DIALOG-->
+    <string name="body_message_generic_dialog">Mensaje de prueba para body</string>
+    <string name="accept_button_generic_dialog">ACEPTAR</string>
+    <string name="cancel_button_generic_dialog">CANCELAR</string>
+    <string name="error_code_generic_dialog">Cód: %1$d</string>
+    <string name="error_code_generic_dialog_string">Cód: %1$s</string>
+    <string name="cod_error">Cód: %1$d</string>
+    <string name="home_toolbar_text">Recibe en :</string>
+    <string name="home_toolbar_pickup_text">Retira en:</string>
+    <string name="removed_products_title">Productos no disponibles</string>
+    <string name="removed_products_secondary_text_1">Al cambiar de dirección, los siguientes productos no estarán disponibles y</string>
+    <string name="removed_products_informative_secondary_text">Los siguientes productos no están disponibles y</string>
+    <string name="removed_products_secondary_text_2">serán eliminados de tu pedido</string>
+    <string name="removed_product_content_description">Imagen del producto</string>
+
+    <!--    RETRY GETTING DATA-->
+    <string name="loading_data_error">Ha ocurrido un error al cargar tus datos</string>
+    <string name="retry_error_text">Por favor, intenta nuevamente</string>
+    <string name="retry_button">REINTENTAR</string>
+
+    <!-- SCHEDULE  -->
+    <string name="next_schedule_from">Desde:</string>
+    <string name="next_schedule_express">Hoy, antes de las %1$tR hrs</string>
+    <string name="next_schedule_today">Hoy a las %1$tR hrs</string>
+    <string name="next_schedule_other_day">%1$ta %1$td/%1$tm a las %1$tR hrs</string>
+    <string name="next_schedule_not_available">Dirección sin horarios disponibles</string>
+    <string name="next_schedule_wirhdrawal_not_available">Local sin horarios disponibles</string>
+
+    <!-- TRACKING INFO -->
+    <string name="status_order">Estado de tu pedido:</string>
+    <string name="you_have_a_orders">Tienes %d pedidos en curso</string>
+
+    <!--    COUNTDOWN WIDGET-->
+    <string name="countdown_hour">Hora</string>
+    <string name="countdown_hours">Horas</string>
+    <string name="countdown_minute">Minuto</string>
+    <string name="countdown_minutes">Minutos</string>
+    <string name="countdown_second">Segundo</string>
+    <string name="countdown_seconds">Segundos</string>
+
+    <!--    Analytics-->
+    <string name="creative_slot">Posición: %d - Slot: %d</string>
+
+    <!-- DIALOGOS -->
+    <string name="body_text_noprime">Disfruta de despacho gratis en todas tus compras sobre $30.000</string>
+    <string name="button_text_noprime">QUIERO SER PRIME</string>
+
+    <string name="body_text_prime">¡Eres Jumbo Prime! Tus compras sobre $30.000 tienen despacho gratis</string>
+    <string name="button_text_prime">ENTENDIDO</string>
+
+    <string name="title_text_cart_limit">Has llegado al máximo de productos en tu carro</string>
+    <string name="button_text_cart_limit">ACEPTAR</string>
+    
+    <string name="title_text_single_product_limit">Has llegado al máximo de este producto en tu carro</string>
+    <string name="button_text_single_product_limit">ACEPTAR</string>
+
+    <string name="see_more">Ver más</string>
+    <string name="see_less">Ver menos</string>
+    <string name="principal_characteristic">Características principales</string>
+    <string name="certifications">Certificaciones</string>
+
+    <string name="out_of_stock_labelerror">Actualmente este producto se encuentra sin stock.</string>
+
+    <string name="required_input">Este campo es obligatorio</string>
+    <string name="offer">Oferta</string>
+    <string name="try_prime_title">Prueba sin costo Jumbo Prime</string>
+    <string name="try_prime_body">Lo sentimos, puedes continuar armando tu pedido, elegir otra dirección o intentar a través de Santa Isabel</string>
+    <string name="try_prime_button">ENTENDIDO</string>
+    <string name="unexpected_error">Ha ocurrido un error inesperado. Intente nuevamente</string>
+
+    <string name="measurement_price">%s x %s</string>
+    <string name="discount_abbreviation">%s dcto.</string>
+
+</resources>
