@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.21770833333333334" />
+        <entry key="../../../../../layout/custom_preview.xml" value="0.21770833333333334" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_contrast.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_contrast_dark.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_decrease_act.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_decrease_act_dark.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_decrease_des.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_decrease_des_dark.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_increase_act.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_increase_act_dark.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_increase_des.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_increase_des_dark.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_question.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/drawable-hdpi/ic_term_question_dark.xml" value="0.164" />
+        <entry key="../commonsV1/commons/src/main/res/layout/layout_cookie.xml" value="0.19114583333333332" />
+        <entry key="../commonsV1/commons/src/main/res/layout/spinner_generic_item.xml" value="0.19114583333333332" />
+        <entry key="../commonsV1/commons/src/main/res/layout/template_generic.xml" value="0.19114583333333332" />
+        <entry key="../commonsV1/commons/src/main/res/layout/template_loading.xml" value="0.19114583333333332" />
+        <entry key="../commonsV1/commons/src/main/res/layout/toolbar.xml" value="0.4022298177083334" />
+        <entry key="../loginV1/login/src/main/res/layout/activity_wizard.xml" value="0.19114583333333332" />
+        <entry key="../loginV1/login/src/main/res/layout/fragment_wizard.xml" value="0.19114583333333332" />
+        <entry key="../profileV1/profile/src/main/res/layout/activity_legal_information.xml" value="0.3111111111111111" />
+        <entry key="../profileV1/profile/src/main/res/layout/activity_term.xml" value="0.3111111111111111" />
+        <entry key="../profileV1/profile/src/main/res/layout/view_what_is_accessibility.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/error_load_products.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/fragment_profile_user.xml" value="0.3111111111111111" />
+        <entry key="app/src/main/res/layout/freq_prod_error.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1285" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable-hdpi/ic_term_increase_des_dark.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable-hdpi/ic_term_question.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable-hdpi/ic_term_question_dark.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/backgroud_selected_item.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/background_picker_medium_button_disable.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/bg_rounded_grey.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/button_green_action_pressed.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/circle_white.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/edittext_rounded_corners.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/enabled_green_button_white_inside.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/green_background_button.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/ic_accept_snackbar.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_add_picker_pdp.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_alert_info.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_arrow_right.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_azucar.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/ic_back_arrow.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_basket.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_chevron_down_white.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_chevron_left.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_chevron_right.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_chevron_top.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_clock.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_close.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_debit_card.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_delete_red.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_error.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_error_outline.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_error_snackbar.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_exclamation.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_exclamation_mark.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_expand_less.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_expand_more.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_freq_prod_error_icon.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_grey_arrow_right.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_group_selected_green.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_home_shimmer.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_https.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_icon_edit.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_icon_edit_gray.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_indicator_bell_notificacion.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_informative.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_launcher_background.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_launcher_foreground.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_lists_small.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_message.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_options.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_padlock.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_pescaderia.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_phone.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_phonegreen.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_point_notification.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_radiobtn_inactive.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_radiobtn_selected.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_radiobtnfine_inactive.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_radiobutton_off.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_radiobutton_on.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_sodio.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_square_radio_button_inactive.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_square_radio_button_selected.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_swipe_to_delete.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_transporte.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/ic_up_right_arrow.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/rounded_background.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/selector_accept_button.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/selector_border_card_green_without_radius.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/selector_edit_product_item.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/spinner_rounded_corners.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/square_radio_button_selector.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/tab_selector.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/text_aread_border.xml" value="0.2515" />
+        <entry key="commons/src/main/res/drawable/unselected_button.xml" value="0.199" />
+        <entry key="commons/src/main/res/drawable/unselected_button_green.xml" value="0.2515" />
+        <entry key="commons/src/main/res/layout/retry_error.xml" value="0.19114583333333332" />
+        <entry key="commons/src/main/res/layout/template_generic.xml" value="0.19114583333333332" />
+        <entry key="commons/src/main/res/layout/template_loading.xml" value="0.19114583333333332" />
+        <entry key="commons/src/main/res/layout/toolbar.xml" value="0.19114583333333332" />
+        <entry key="login/src/main/res/layout/activity_film_detail.xml" value="0.19114583333333332" />
+        <entry key="login/src/main/res/layout/activity_home.xml" value="0.38229166666666664" />
+        <entry key="login/src/main/res/layout/activity_wizard.xml" value="0.36302083333333335" />
+        <entry key="login/src/main/res/layout/item_film.xml" value="0.36302083333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

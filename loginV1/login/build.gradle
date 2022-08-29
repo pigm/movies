@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+
+    buildFeatures{
+        dataBinding true
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation project(':commons')
+    annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
+}

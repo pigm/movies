@@ -1,0 +1,56 @@
+<resources>
+
+
+    <style name="AppThemeAuto" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:dropDownListViewStyle">@style/any</item>
+    </style>
+
+    <style name="any" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="XXXLargeSemiTitle">
+        <item name="android:textSize">@dimen/xxx_large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="XXLargeSemiTitle">
+        <item name="android:textSize">@dimen/xx_large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="XLargeSemiTitle">
+        <item name="android:textSize">@dimen/x_large_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="MediumSemiTitle">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+
+    <style name="SolidButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="SolidButton.LargeText">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:minHeight">@dimen/medium_button_height</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColorPrimary">@color/brownish_gray</item>
+    </style>
+</resources>
+
+

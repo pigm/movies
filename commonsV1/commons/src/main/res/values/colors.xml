@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#D91E18</color>
+    <color name="colorAccent">#F03434</color>
+    <color name="hint_text_color">#ababab</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#333333</color>
+    <color name="black_0">#000000</color>
+
+    <!-- Button -->
+
+    <!-- Background -->
+    <color name="background">#FFFFFF</color>
+    <color name="background_toolbar">#ffffff</color>
+    <color name="view_separator">#e6e6e5</color>
+    <color name="yellow_dark_msg">#f8f5ca</color>
+
+    <color name="default_bg_color">#BDBDBD</color>
+    <color name="default_action_color">#26a69a</color>
+
+    <!-- Onboarding -->
+    <color name="gray">#838383</color>
+    <color name="brownish_gray">#666666</color>
+
+    <!-- Wizard - Login -->
+    <color name="kelley_green">#1fa02e
+    </color>  <!-- Reemplazar este color en codigo de JAVA por el colorPrimary de la New Color Stan.-->
+    <color name="red_scarlet">#d0021b</color>
+    <color name="red_close_session">#cc0000</color>
+    <color name="eddish_orange">#f15b16</color>
+
+    <!-- Button && CartPicker Button-->
+    <color name="colorPrimaryButtonDisable">#d3d3d3</color>
+    <color name="colorPrimaryPicker">#f2f2f2</color>
+
+    <color name="black_50">#80000000</color>
+    <color name="black_87">#de000000</color>
+    <color name="warm_grey">#9e9e9e</color>
+    <color name="divider">#1e000000</color>
+    <color name="background_louder2">#9C020202</color>
+    <!-- new colors-->
+    <color name="dusty_orange">#ef6737</color>
+
+    <!-- payment confirmation -->
+    <color name="green_variation">#009639</color>
+
+    <!--
+    New color standardization
+    Si el color no se encuentra en esta sección, consultar por él a quién corresponda y verifcar
+    que el nuevo color vaya a ser standard dentro de la aplicación
+    -->
+    <!-- Forest Green -
+            Color corporativo utilizado en toolbar, iconos, resaltar palabras y links.-->
+    <color name="colorPrimary">#F03434</color>
+    <color name="colorPrimaryDarkMode">#FFB600</color>
+    <color name="colorOnPrimary">#ffffff</color>
+    <!-- Mine Shaft -
+            Color utilizado en títulos de sección. (Vitrinas, Shortcuts, etc.)-->
+    <color name="colorPrimaryText">#333333</color>
+    <!-- Silver -
+            Margen card de producto y textos secundarios como precio anterior.-->
+    <color name="colorSecondaryText">#C0C0C0</color>
+    <!-- Dove Gray -
+            Color utilizado en textos para nombres de producto.-->
+    <color name="colorPrimaryProductText">#666666</color>
+    <!-- Gray -
+            Color utilizado en textos secundarios para la sección de producto, especificamente, en display)-->
+    <color name="colorSecondaryProductText">#888888</color>
+    <!-- Mercury -->
+    <color name="colorDisabledText">#E2E2E2</color>
+    <!-- Razzmatazz -
+            Color Tarjeta Cencosud Scotiabank.-->
+    <color name="colorCencoPriceText">#EC1164</color>
+    <!--        Color precio oferta-->
+    <color name="colorOfferPriceText">#FF600A</color>
+    <!-- Wild Sand -
+            Background app.-->
+    <color name="colorBackground">#F4F4F4</color>
+    <color name="colorWhiteBackground">#FFFFFF</color>
+    <color name="colorWarningBackground">#f8f5ca</color>
+    <color name="colorLoadingBackground">#77020202</color>
+    <!-- Atlantis -
+            Color utilizado en los botones que llamen a una acción.-->
+    <color name="colorPrimaryButton">#F03434</color>
+    <color name="colorOutlinedButton">#FFFFFF</color>
+    <color name="colorDisabledButton">#C0C0C0</color>
+    <!-- Limeade -
+            Color utilizado al presionar cada botón que utilice verde pistacho.-->
+    <color name="colorPrimaryButtonPressed">#D91E18</color>
+    <!-- Guardswman Red -
+            Color utilizado en notificaciones y textos de alerta.-->
+    <color name="colorError">#D60000</color>
+
+    <color name="colorPrice">#666666</color>
+
+    <!--END color standardization-->
+
+    <!--  COUNTDOWN  WIDGET COLOR-->
+    <color name="countDownLightBackground">#FFFFFF</color>
+    <color name="countDownLightText">#333333</color>
+    <color name="countDownDarkBackground">#333333</color>
+    <color name="countDownDarkText">#FFFFFF</color>
+
+    <!-- Ligth and dark mode-->
+    <color name="colorLigthBackground">#F4F4F4</color>
+    <color name="colorDarkBackground">#333333</color>
+    <color name="colorTextDarkMode">#F4F4F4</color>
+    <color name="colorTextligthMode">#333333</color>
+    <color name="colorTextDarkModeBlock">#888888</color>
+    <color name="colorTextligthModeBlock">#C0C0C0</color>
+</resources>

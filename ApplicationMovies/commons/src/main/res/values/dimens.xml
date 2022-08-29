@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--    TEXT-->
+    <dimen name="xxxx_large_text">40sp</dimen>
+    <dimen name="xxx_large_text">32sp</dimen>
+    <dimen name="xx_large_text">24sp</dimen>
+    <dimen name="x_large_text">18sp</dimen>
+    <dimen name="large_text">16sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+
+    <!--    LAYOUT MARGIN-->
+    <dimen name="x_large_margin">32dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="medium_large_margin">18dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="x_medium_margin">12dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="x_small_margin">4dp</dimen>
+    <dimen name="xs_small_margin">2dp</dimen>
+
+    <!--List icon-->
+    <dimen name="shortcut_size">64dp</dimen>
+
+    <!--DIVIDER-->
+    <dimen name="view_width">90dp</dimen>
+    <dimen name="view_height">2dp</dimen>
+
+    <!--    BUTTON-->
+    <dimen name="medium_button_height">44dp</dimen>
+    <dimen name="small_button_height">30dp</dimen>
+
+</resources>

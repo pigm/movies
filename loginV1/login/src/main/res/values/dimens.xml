@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default Text Sizes. -->
+    <dimen name="general_button_height">40dp</dimen>
+    <dimen name="general_button_text_size">18sp</dimen>
+    <dimen name="text_input_size_default">16sp</dimen>
+    <dimen name="text_error_input">12sp</dimen>
+    <dimen name="text_error_margin">5dp</dimen>
+
+    <!-- Login screen margins and sizes. -->
+    <dimen name="login_text_title_size">18sp</dimen>
+    <dimen name="forgot_password_text_size">18sp</dimen>
+    <dimen name="terms_conditions_text_padding">12dp</dimen>
+    <dimen name="terms_conditions_text_size">14sp</dimen>
+
+</resources>

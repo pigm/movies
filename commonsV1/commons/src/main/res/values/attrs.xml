@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AddToCarView">
+        <attr name="viewtype" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="Cookie">
+        <!--TextColor-->
+        <attr name="cookieTitleColor" format="color"/>
+        <attr name="cookieMessageColor" format="color"/>
+        <attr name="cookieActionColor" format="color"/>
+        <attr name="cookieBackgroundColor" format="color"/>
+        <!--TextSize-->
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="messageTextSize" format="dimension"/>
+        <attr name="actionTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="DotProgressBar">
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="duration" format="integer" />
+        <attr name="amount" format="integer" />
+        <attr name="animationDirection" format="enum">
+            <enum name="right" value="1" />
+            <enum name="left" value="-1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CartPickerMediumView">
+        <attr name="show_picker_unpressed" format="boolean" />
+        <attr name="isCart" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonTheme">
+        <attr name="backColor" format="reference" />
+        <attr name="borderColor" format="reference" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="android:background" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableProductComponent">
+        <attr name="maxCollapseLines" format="integer"/>
+        <attr name="title" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="GenericTemplate">
+        <attr name="genericImage" format="reference" />
+        <attr name="genericTitle" format="string" />
+        <attr name="genericBody" format="string" />
+        <attr name="genericButton" format="string" />
+        <attr name="genericButtonCenterPosition" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingTemplate">
+        <attr name="loadingBackgroundColor" format="reference" />
+        <attr name="loadingMessage" format="string" />
+    </declare-styleable>
+
+</resources>

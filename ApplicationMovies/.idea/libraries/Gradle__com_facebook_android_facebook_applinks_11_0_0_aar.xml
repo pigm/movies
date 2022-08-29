@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-applinks:11.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5dfb3899ef4ab828106e9d0e441210ff/transformed/jetified-facebook-applinks-11.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/39f6580321940aa6b8a5bdbeef25ecbc/transformed/jetified-facebook-applinks-11.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/39f6580321940aa6b8a5bdbeef25ecbc/transformed/jetified-facebook-applinks-11.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/39f6580321940aa6b8a5bdbeef25ecbc/transformed/jetified-facebook-applinks-11.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-applinks/11.0.0/a4e006bda1269d110eaee92e6b0e29d8504f40f7/facebook-applinks-11.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-applinks/11.0.0/4082b34192647c8ca522a38e74434a74f8f1054d/facebook-applinks-11.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

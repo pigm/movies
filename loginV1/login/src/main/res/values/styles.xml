@@ -1,0 +1,61 @@
+<resources>
+
+    <style name="AppThemeLogin" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="snackbarStyle">@style/CencoSnackBar</item>
+    </style>
+
+    <style name="AppThemeLoginInternalViews" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="snackbarStyle">@style/CencoSnackBar</item>
+    </style>
+
+    <style name="error_appearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="hintTextColor">@color/colorPrimaryText</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+    </style>
+
+    <style name="login_hint_appearance">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textColorHint">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="TextLabel" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_input_size_default</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColorPrimary">@color/brownish_gray</item>
+    </style>
+
+    <style name="TextAppearanceBlackGray" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/brownish_gray</item>
+        <item name="android:textColor">@color/black_50</item>
+        <item name="colorAccent">@color/brownish_gray</item>
+    </style>
+
+
+    <style name="CencoSnackBar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+</resources>
